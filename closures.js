@@ -27,3 +27,13 @@
 
     getUsername();
 }
+
+// Closures
+{
+    const username = "yellyoshua";
+    const printUsername = (username) => {
+        console.log(username); // Output: "mariajose"
+    }
+
+    printUsername("mariajose")
+}
